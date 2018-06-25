@@ -1,1 +1,1 @@
-# angularjs-starter
+# node-angularjs-starter
