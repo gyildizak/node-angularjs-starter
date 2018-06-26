@@ -1,11 +1,12 @@
 extends layout
 
 append stylesheets
-  link(rel='stylesheet', href='/stylesheets/index.css')
+  link(rel='stylesheet', href='/css/index.css')
 
 block content
   div(ng-controller="indexController")
     | Welcome to Node - Angular Starter
 
 append javascripts
-  script(src="/javascripts/controllers/indexController.js")
+  script(src="/js/services/indexFactory.js")
+  script(src="/js/controllers/indexController.js")
