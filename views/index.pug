@@ -5,14 +5,7 @@ append stylesheets
 
 block content
   div(ng-controller="indexController")
-    .modal
-      .modal__inner
-        .modal__header
-          h2 Welcome, please login.
-        .modal__footer
-          a(href='#')
-            i.fa.fa-facebook(aria-hidden='true')
-            | Login with Facebook
+    | Welcome to Node - Angular Starter
 
 append javascripts
-  script(src="/javascripts/controller/indexController.js")
+  script(src="/javascripts/controllers/indexController.js")
