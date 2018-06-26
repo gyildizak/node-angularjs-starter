@@ -3,5 +3,5 @@ app.controller('indexController', ['$scope', 'indexFactory', ($scope, indexFacto
 
 	indexFactory.getData().then(data => {
 		console.log(data);
-	})
+	});
 }]);

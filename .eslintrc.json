@@ -1,0 +1,44 @@
+{
+  "rules": {
+    "no-var": 0,
+    "no-console": 0
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "mocha": true
+  },
+  "globals": {
+    "angular": false,
+    "app": false,
+    "$": false,
+    "path": false,
+    "checkoutHandler": false,
+    "StripeCheckout": false,
+    "google": false
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 0,
+    "no-var": "error",
+    "prefer-arrow-callback": "error",
+    "indent": ["error", "tab"],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
