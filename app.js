@@ -4,6 +4,10 @@ const path = require('path');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
+
+dotenv.config();
+console.log(process.env.DB_HOST);
 
 const index = require('./routes/index');
 const users = require('./routes/users');
