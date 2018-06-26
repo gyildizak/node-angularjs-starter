@@ -1,16 +1,15 @@
 import express from 'express';
-const path = require('path');
-//const favicon = require('serve-favicon');
-const logger = require('morgan');
-const cookieParser = require('cookie-parser');
-const bodyParser = require('body-parser');
-const dotenv = require('dotenv');
+import path from 'path';
+//import favicon from 'serve-favicon';
+import logger from 'morgan';
+import cookieParser from 'cookie-parser';
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
 
 dotenv.config();
-console.log(process.env.DB_HOST);
 
-const index = require('./routes/index');
-const users = require('./routes/users');
+import index from './routes/';
+import users from './routes/users';
 
 const app = express();
 
