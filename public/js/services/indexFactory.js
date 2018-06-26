@@ -7,8 +7,8 @@ app.factory('indexFactory', ['$http', ($http) => {
 			.then((response) => {
 				return response.data;
 			}, () => {
-				console.log('fail');
-			});
+				console.log('Fail');
+			})
 	};
 
 	return {

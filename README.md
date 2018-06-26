@@ -11,6 +11,7 @@
 - ESLint
 - ES6 with Babel
 - Gulp
+- Travis CI
 
 ## Node Enviroment Variables
 Create a file named ".env" in the root directory and fill its contents as follows.
