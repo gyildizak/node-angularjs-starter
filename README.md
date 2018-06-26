@@ -1,4 +1,6 @@
-# node-angularjs-starter
+[![Build Status](https://api.travis-ci.com/meseven/node-angularjs-starter.svg?branch=master)](https://travis-ci.com/meseven/node-angularjs-starter)
+
+# Node & Angular.JS Starter
 
 ## Commands
 - npm run lint
