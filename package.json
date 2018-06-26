@@ -7,7 +7,7 @@
     "start:dev": "nodemon --exec babel-node -- ./bin/www",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "mocha --require babel-register ./__test__/**/*.tests.js"
+    "test": "mocha --require babel-register ./__tests__/**/*.test.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
