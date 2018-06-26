@@ -13,6 +13,10 @@ import users from './routes/users';
 
 const app = express();
 
+// db connection
+import db from './helpers/db.js';
+db();
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');

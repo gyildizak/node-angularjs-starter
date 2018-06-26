@@ -7,7 +7,7 @@
     "start:dev": "nodemon --exec babel-node -- ./bin/www",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "mocha --require babel-register ./__tests__/**/*.test.js"
+    "test": "mocha --exit --require babel-register ./__tests__/**/*.test.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -17,6 +17,7 @@
     "debug": "~2.6.9",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "mongoose": "^5.1.7",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5"
